@@ -510,30 +510,31 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_직급_전체보기">직급 전체보기</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_10">요청</a></li>
+<li><a href="#_응답_10">응답</a></li>
 </ul>
 </li>
 <li><a href="#_직급_생성">직급 생성</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_11">요청</a></li>
-<li><a href="#_응답_10">응답</a></li>
+<li><a href="#_응답_11">응답</a></li>
 </ul>
 </li>
 <li><a href="#_직급_보기">직급 보기</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_12">요청</a></li>
-<li><a href="#_응답_11">응답</a></li>
+<li><a href="#_응답_12">응답</a></li>
 </ul>
 </li>
 <li><a href="#_직급_수정">직급 수정</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_13">요청</a></li>
-<li><a href="#_응답_12">응답</a></li>
+<li><a href="#_응답_13">응답</a></li>
 </ul>
 </li>
 <li><a href="#_직급_삭제">직급 삭제</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_14">요청</a></li>
-<li><a href="#_응답_13">응답</a></li>
+<li><a href="#_응답_14">응답</a></li>
 </ul>
 </li>
 </ul>
@@ -543,43 +544,43 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_연차_생성">연차 생성</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_15">요청</a></li>
-<li><a href="#_응답_14">응답</a></li>
+<li><a href="#_응답_15">응답</a></li>
 </ul>
 </li>
 <li><a href="#_연차_자세히보기">연차 자세히보기</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_16">요청</a></li>
-<li><a href="#_응답_15">응답</a></li>
+<li><a href="#_응답_16">응답</a></li>
 </ul>
 </li>
 <li><a href="#_연차_리스트보기">연차 리스트보기</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_17">요청</a></li>
-<li><a href="#_응답_16">응답</a></li>
+<li><a href="#_응답_17">응답</a></li>
 </ul>
 </li>
 <li><a href="#_연차_수정하기">연차 수정하기</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_18">요청</a></li>
-<li><a href="#_응답_17">응답</a></li>
+<li><a href="#_응답_18">응답</a></li>
 </ul>
 </li>
 <li><a href="#_연차_삭제하기">연차 삭제하기</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_19">요청</a></li>
-<li><a href="#_응답_18">응답</a></li>
+<li><a href="#_응답_19">응답</a></li>
 </ul>
 </li>
 <li><a href="#_연차_승인확인_승인되면_true">연차 승인확인 (승인되면 true)</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_20">요청</a></li>
-<li><a href="#_응답_19">응답</a></li>
+<li><a href="#_응답_20">응답</a></li>
 </ul>
 </li>
 <li><a href="#_연차_반려확인_승인되면_true">연차 반려확인 (승인되면 true)</a>
 <ul class="sectlevel2">
 <li><a href="#_요청_21">요청</a></li>
-<li><a href="#_응답_20">응답</a></li>
+<li><a href="#_응답_21">응답</a></li>
 </ul>
 </li>
 </ul>
@@ -592,6 +593,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_사용자_전체보기페이징">사용자 전체보기(페이징)</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>size는 기본값 10 변경가능
+page는 기본값 0 변경가능</p>
+</div>
 <div class="sect2">
 <h3 id="_요청">요청</h3>
 <div class="listingblock">
@@ -629,25 +634,25 @@ Content-Length: 926
     "content" : [ {
       "username" : "admin",
       "role" : "ADMIN",
-      "fileName" : "d176631b-34af-485b-bd1f-059db2bd05f5_data.jpg",
+      "fileName" : "302e904b-1ea5-4dbe-818e-24e86a3481e3_data.jpg",
       "email" : "admin@naver.com",
       "employeeNumber" : "202304281234",
       "phoneNumber" : "010-1234-1234",
       "birthDate" : "2023-04-28",
       "years" : "15",
       "name" : "김독자",
-      "updatedAt" : "2023-05-02T18:57:37.4440324"
+      "updatedAt" : "2023-05-02T19:20:55.9968956"
     }, {
       "username" : "admin",
       "role" : "ADMIN",
-      "fileName" : "e9aa25ca-f28f-4766-bfa2-18fdfff3ee11_data.jpg",
+      "fileName" : "a771a515-9999-41bc-bbd6-15676f1b0b03_data.jpg",
       "email" : "admin@naver.com",
       "employeeNumber" : "202304281234",
       "phoneNumber" : "010-1234-1234",
       "birthDate" : "2023-04-28",
       "years" : "15",
       "name" : "김독자",
-      "updatedAt" : "2023-05-02T18:57:37.4440324"
+      "updatedAt" : "2023-05-02T19:20:55.9968956"
     } ]
   }
 }</code></pre>
@@ -737,8 +742,8 @@ Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
 Content-Type: application/json;charset=UTF-8
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJKV1QiLCJpbWFnZSI6bnVsbCwicm9sZSI6IkFETUlOIiwibmFtZSI6bnVsbCwiZXhwIjoxNjgzMTA3ODU3LCJ1c2VybmFtZSI6ImFkbWluIn0.VgmlSAY8GkifQK0G0mQftjWyydvaa1RdL4YBGWB21Zm3v9pDGaWUl0i3xg0WoBNse_7zmXpbY_CAwCUNAF9I6g
-X-Auth-Refresh-Token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJKV1QiLCJpbWFnZSI6bnVsbCwicm9sZSI6IkFETUlOIiwibmFtZSI6bnVsbCwiZXhwIjoxNjg1NjEzNDU3LCJ1c2VybmFtZSI6ImFkbWluIn0.JSK1dY9T_mywO9l1Rgwv489-EtdOPOuWzU4oSCg4qEqm_5tRjE3pjKOt48Ul4MazFk-nNJbpWaviLs6yroR2jw
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJKV1QiLCJpbWFnZSI6bnVsbCwicm9sZSI6IkFETUlOIiwibmFtZSI6bnVsbCwiZXhwIjoxNjgzMTA5MjU2LCJ1c2VybmFtZSI6ImFkbWluIn0.G5jKekoSXxKlyzw9RZdtiwswISE-tpL_5Lw5hFARKVo4ccPxSWYffDE27jvFmLP4MIysjwU8b2jwQJSw0qn4IQ
+X-Auth-Refresh-Token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJKV1QiLCJpbWFnZSI6bnVsbCwicm9sZSI6IkFETUlOIiwibmFtZSI6bnVsbCwiZXhwIjoxNjg1NjE0ODU2LCJ1c2VybmFtZSI6ImFkbWluIn0.pxZeDZRUxVYLo9zuBSEg4UvIPttswfJlJV9D9Ofpgz6S9n0S0AiFBUIgbzHYBD3_Egaa51RGwjx1AtmSw2V48g
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -866,14 +871,14 @@ Content-Length: 427
   "data" : {
     "username" : "admin",
     "role" : "ADMIN",
-    "fileName" : "f72be6bc-1730-4e73-a6e3-2a29bd1851d8_data.jpg",
+    "fileName" : "8f0c0998-28d3-4b15-a4b7-6a275c3a5c04_data.jpg",
     "email" : "admin@naver.com",
     "employeeNumber" : "202304281234",
     "phoneNumber" : "010-1234-1234",
     "birthDate" : "2023-04-28",
     "years" : "15",
     "name" : "김독자",
-    "updatedAt" : "2023-05-02T18:57:37.3798177"
+    "updatedAt" : "2023-05-02T19:20:55.9163703"
   }
 }</code></pre>
 </div>
@@ -1088,10 +1093,47 @@ Expires: 0
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_요청_10">요청</h3>
-<div class="paragraph">
-<p>Unresolved directive in api-docs.adoc - include::./build/generated-snippets/position-controller-test/position_findAll/http-request.adoc[]
-=== 응답
-Unresolved directive in api-docs.adoc - include::./build/generated-snippets/position-controller-test/position_findAll/http-response.adoc[]</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">GET /api/v1/position/list HTTP/1.1
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJKV1QiLCJpbWFnZSI6bnVsbCwicm9sZSI6IkFETUlOIiwibmFtZSI6bnVsbCwiZXhwIjoxNjgzMDk1OTQ2LCJ1c2VybmFtZSI6ImFkbWluIn0.RT5pT_S8JgcQ4nY51cR4fLW04r6WYH4LL4oHiB1OkH6QEhcJhpE6YxdaXoaLQqDv5kQ97lZYRlezG_5PzysMcw
+Host: localhost:8080</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_응답_10">응답</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Length: 250
+
+{
+  "status" : 200,
+  "message" : "success",
+  "data" : [ {
+    "id" : 1,
+    "position" : "STAFF",
+    "vacation" : "1",
+    "years" : "1"
+  }, {
+    "id" : 2,
+    "position" : "MANAGER",
+    "vacation" : "3",
+    "years" : "2"
+  } ]
+}</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -1120,7 +1162,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_10">응답</h3>
+<h3 id="_응답_11">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1160,7 +1202,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_11">응답</h3>
+<h3 id="_응답_12">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1215,7 +1257,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_12">응답</h3>
+<h3 id="_응답_13">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1262,7 +1304,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_13">응답</h3>
+<h3 id="_응답_14">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1313,7 +1355,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_14">응답</h3>
+<h3 id="_응답_15">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1353,7 +1395,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_15">응답</h3>
+<h3 id="_응답_16">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1399,7 +1441,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_16">응답</h3>
+<h3 id="_응답_17">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1458,7 +1500,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_17">응답</h3>
+<h3 id="_응답_18">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1498,7 +1540,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_18">응답</h3>
+<h3 id="_응답_19">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1538,7 +1580,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_19">응답</h3>
+<h3 id="_응답_20">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1578,7 +1620,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_응답_20">응답</h3>
+<h3 id="_응답_21">응답</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code data-lang="http" class="language-http hljs">HTTP/1.1 200 OK
@@ -1607,7 +1649,7 @@ Content-Length: 66
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1-SNAPSHOT<br>
-Last updated 2023-05-02 18:56:16 +0900
+Last updated 2023-05-02 19:20:01 +0900
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
